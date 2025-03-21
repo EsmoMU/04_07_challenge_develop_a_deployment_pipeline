@@ -8,7 +8,6 @@ on:
         description: Enter the target environment for the deployment
         options:
         - Staging
-        - Production
   push:
     branches: [ "master" ]
   pull_request:
